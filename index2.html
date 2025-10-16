@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/bag.svg">
+    <title>LadyClassic - Елегантний жіночий одяг</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+   <!-- Шапка сайту -->
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/bag.svg" alt="LadyClassic" class="logo-icon">
+                <span class="logo-lady">Lady</span><span class="logo-classic">Classic</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="index2.html">Асортимент</a></li>
+                    <li><a href="index3.html">Про нас</a></li>
+                    <li><a href="index4.html">Контакти</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </div>
+</header>
+
+         <!-- Слайдер -->
+<section class="slider">
+    <div class="slider-container">
+        <div class="slide active">
+            <div class="slide-content">
+                <h1>Елегантність у кожній деталі</h1>
+                <p>Відкрийте для себе колекцію стильного жіночого одягу, що підкреслює вашу індивідуальність та смак.</p>
+                <a href="index2.html" class="btn">Переглянути колекцію</a>
+            </div>
+            <div class="slide-image">
+                <div class="image-frame">
+                    <img src="images/slide1.jpg" alt="Колекція одягу LadyClassic">
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <h1>Найпопулярніші товари</h1>
+                <p>Речі, які завжди залишатимуться у тренді!</p>
+                <a href="#new-arrivals" class="btn">Дізнатися більше</a>
+            </div>
+            <div class="slide-image">
+                <div class="image-frame">
+                    <img src="images/slide2.jpg" alt="Трендова колекція">
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <h1>Спеціальні пропозиції</h1>
+                <p>Ексклюзивні знижки для наших клієнтів.</p>
+                <a href="#sale" class="btn">Переглянути акції</a>
+            </div>
+            <div class="slide-image">
+                <div class="image-frame">
+                    <img src="images/slide3.jpg" alt="Спеціальні пропозиції">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-controls">
+        <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</section>
+        <!-- Секція категорій -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="categories-header">
+                <h2>Наш Асортимент</h2>
+                <p>Відкрийте для себе унікальні колекції одягу для кожного дня та особливих моментів</p>
+            </div>
+            
+            <div class="categories-nav">
+                <button class="category-tab active" data-category="dresses">Сукні</button>
+                <button class="category-tab" data-category="tops">Блузки та топи</button>
+                <button class="category-tab" data-category="bottoms">Штани та спідниці</button>
+                <button class="category-tab" data-category="outerwear">Верхній одяг</button>
+                <button class="category-tab" data-category="accessories">Аксесуари</button>
+            </div>
+
+          
+        <!-- Контент для суконь -->
+        <div class="category-content active" id="dresses">
+            <div class="category-products">
+                <!-- Сукня 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress1.jpg" alt="Чорна сукня міді">
+                    </div>
+                    <div class="product-content">
+                        <h3>Чорна сукня міді</h3>
+                        <p class="product-description">Елегантна сукня з вовняного крепу</p>
+                        <div class="product-price">
+                            <span class="current-price">1 850 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="1" 
+                                data-name="Чорна сукня міді" 
+                                data-price="1850" 
+                                data-image="images/dress1.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Сукня 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress2.jpg" alt="Вечірня сукня">
+                    </div>
+                    <div class="product-content">
+                        <h3>Вечірня сукня</h3>
+                        <p class="product-description">Шовкова сукня для особливих подій</p>
+                        <div class="product-price">
+                            <span class="current-price">2 500 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="2" 
+                                data-name="Вечірня сукня" 
+                                data-price="2500" 
+                                data-image="images/dress2.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Сукня 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress3.jpg" alt="Літня сукня">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Літня сукня</h3>
+                        <p class="product-description">Легка сукня з льону для літа</p>
+                        <div class="product-price">
+                            <span class="current-price">1 350 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="3" 
+                                data-name="Літня сукня" 
+                                data-price="1350" 
+                                data-image="images/dress3.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Сукня 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress4.jpg" alt="Офісна сукня">
+                    </div>
+                    <div class="product-content">
+                        <h3>Офісна сукня</h3>
+                        <p class="product-description">Сукня класичного крою для бізнесу</p>
+                        <div class="product-price">
+                            <span class="current-price">1 650 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="4" 
+                                data-name="Офісна сукня" 
+                                data-price="1650" 
+                                data-image="images/dress4.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Сукня 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress5.jpg" alt="Сукня з кольоровим принтом">
+                    </div>
+                    <div class="product-content">
+                        <h3>Сукня з принтом</h3>
+                        <p class="product-description">Яскрава сукня з квітковим принтом</p>
+                        <div class="product-price">
+                            <span class="current-price">1 450 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="5" 
+                                data-name="Сукня з принтом" 
+                                data-price="1450" 
+                                data-image="images/dress5.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Сукня 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress6.jpg" alt="Сукня-футляр">
+                        <div class="product-badge sale">-20%</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Сукня-футляр</h3>
+                        <p class="product-description">Класична сукня-футляр з костюмної тканини</p>
+                        <div class="product-price">
+                            <span class="current-price">1 600 грн</span>
+                            <span class="old-price">2 000 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="6" 
+                                data-name="Сукня-футляр" 
+                                data-price="1600" 
+                                data-image="images/dress6.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Сукня 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress7.jpg" alt="Вільна сукня">
+                    </div>
+                    <div class="product-content">
+                        <h3>Вільна сукня</h3>
+                        <p class="product-description">Комфортна сукня вільного крою</p>
+                        <div class="product-price">
+                            <span class="current-price">1 250 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="7" 
+                                data-name="Вільна сукня" 
+                                data-price="1250" 
+                                data-image="images/dress7.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Сукня 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/dress8.jpg" alt="Сукня з вишивкою">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Сукня з вишивкою</h3>
+                        <p class="product-description">Ексклюзивна сукня з ручною вишивкою</p>
+                        <div class="product-price">
+                            <span class="current-price">2 800 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="8" 
+                                data-name="Сукня з вишивкою" 
+                                data-price="2800" 
+                                data-image="images/dress8.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Контент для блузок -->
+        <div class="category-content" id="tops">
+            <div class="category-products">
+                <!-- Блузка 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top1.jpg" alt="Блузка з шифону">
+                    </div>
+                    <div class="product-content">
+                        <h3>Блузка з шифону</h3>
+                        <p class="product-description">Біла блузка з летючими рукавами</p>
+                        <div class="product-price">
+                            <span class="current-price">1 200 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="9" 
+                                data-name="Блузка з шифону" 
+                                data-price="1200" 
+                                data-image="images/top1.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Блузка 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top2.jpg" alt="Шовкова блузка">
+                    </div>
+                    <div class="product-content">
+                        <h3>Шовкова блузка</h3>
+                        <p class="product-description">Елегантна блузка з натурального шовку</p>
+                        <div class="product-price">
+                            <span class="current-price">1 800 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="10" 
+                                data-name="Шовкова блузка" 
+                                data-price="1800" 
+                                data-image="images/top2.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Блузка 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top3.jpg" alt="Топ з віскози">
+                    </div>
+                    <div class="product-content">
+                        <h3>Топ з віскози</h3>
+                        <p class="product-description">Комфортний топ для повсякденного носіння</p>
+                        <div class="product-price">
+                            <span class="current-price">850 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="11" 
+                                data-name="Топ з віскози" 
+                                data-price="850" 
+                                data-image="images/top3.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Блузка 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top4.jpg" alt="Блузка з бантом">
+                    </div>
+                    <div class="product-content">
+                        <h3>Блузка з бантом</h3>
+                        <p class="product-description">Романтична блузка з декоративним бантом</p>
+                        <div class="product-price">
+                            <span class="current-price">1 350 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="12" 
+                                data-name="Блузка з бантом" 
+                                data-price="1350" 
+                                data-image="images/top4.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Блузка 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top5.jpg" alt="Блузка з мереживом">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Блузка з мереживом</h3>
+                        <p class="product-description">Елегантна блузка з мереживними вставками</p>
+                        <div class="product-price">
+                            <span class="current-price">1 600 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="13" 
+                                data-name="Блузка з мереживом" 
+                                data-price="1600" 
+                                data-image="images/top5.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Блузка 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top6.jpg" alt="Базовий топ">
+                    </div>
+                    <div class="product-content">
+                        <h3>Базовий топ</h3>
+                        <p class="product-description">Універсальний топ з бавовни</p>
+                        <div class="product-price">
+                            <span class="current-price">550 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="14" 
+                                data-name="Базовий топ" 
+                                data-price="550" 
+                                data-image="images/top6.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Блузка 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top7.jpg" alt="Топ офсетний">
+                        <div class="product-badge sale">-15%</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Топ офсетний</h3>
+                        <p class="product-description">Модний топ з асиметричним кроєм</p>
+                        <div class="product-price">
+                            <span class="current-price">950 грн</span>
+                            <span class="old-price">1 120 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="15" 
+                                data-name="Топ офсетний" 
+                                data-price="950" 
+                                data-image="images/top7.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Блузка 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/top8.jpg" alt="Блузка з комірцем">
+                    </div>
+                    <div class="product-content">
+                        <h3>Блузка з комірцем</h3>
+                        <p class="product-description">Класична блузка з строгим комірцем</p>
+                        <div class="product-price">
+                            <span class="current-price">1 100 грн</span>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="16" 
+                                data-name="Блузка з комірцем" 
+                                data-price="1100" 
+                                data-image="images/top8.jpg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Додати в кошик
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Контент для штанів та спідниць -->
+<div class="category-content" id="bottoms">
+    <div class="category-products">
+        <!-- Штани 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom2.jpg" alt="Класичні штани">
+            </div>
+            <div class="product-content">
+                <h3>Класичні штани</h3>
+                <p class="product-description">Штани прямого крою з костюмної тканини</p>
+                <div class="product-price">
+                    <span class="current-price">1 400 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="17" 
+                        data-name="Класичні штани" 
+                        data-price="1400" 
+                        data-image="images/bottom1.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Штани 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom8.jpg" alt="Широкі штани">
+            </div>
+            <div class="product-content">
+                <h3>Широкі штани</h3>
+                <p class="product-description">Комфортні штани вільного крою</p>
+                <div class="product-price">
+                    <span class="current-price">1 250 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="18" 
+                        data-name="Широкі штани" 
+                        data-price="1250" 
+                        data-image="images/bottom2.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Спідниця 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom3.jpg" alt="Сині джинси">
+            </div>
+            <div class="product-content">
+                <h3>Сині джинси</h3>
+                <p class="product-description">Сині джинси - база будь-якого гардеробу</p>
+                <div class="product-price">
+                    <span class="current-price">1 100 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="19" 
+                        data-name="Спідниця олівець" 
+                        data-price="1100" 
+                        data-image="images/bottom3.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Спідниця 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom6.jpg" alt="Спідниця розкльош">
+            </div>
+            <div class="product-content">
+                <h3>Спідниця розкльош</h3>
+                <p class="product-description">Романтична спідниця з летючим кроєм</p>
+                <div class="product-price">
+                    <span class="current-price">1 350 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="20" 
+                        data-name="Спідниця розкльош" 
+                        data-price="1350" 
+                        data-image="images/bottom4.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Штани 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom7.jpg" alt="Джинси">
+                <div class="product-badge">Новинка</div>
+            </div>
+            <div class="product-content">
+                <h3>Класичні джинси</h3>
+                <p class="product-description">Універсальні джинси прямого крою</p>
+                <div class="product-price">
+                    <span class="current-price">1 600 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="21" 
+                        data-name="Класичні джинси" 
+                        data-price="1600" 
+                        data-image="images/bottom5.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Спідниця 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom1.jpg" alt="Міні спідниця">
+            </div>
+            <div class="product-content">
+                <h3>Міні спідниця</h3>
+                <p class="product-description">Модна спідниця міні довжини</p>
+                <div class="product-price">
+                    <span class="current-price">950 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="22" 
+                        data-name="Міні спідниця" 
+                        data-price="950" 
+                        data-image="images/bottom6.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Штани 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom8.jpg" alt="Кюлоти">
+                <div class="product-badge sale">-10%</div>
+            </div>
+            <div class="product-content">
+                <h3>Кюлоти</h3>
+                <p class="product-description">Стильні кюлоти з високою талією</p>
+                <div class="product-price">
+                    <span class="current-price">1 350 грн</span>
+                    <span class="old-price">1 500 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="23" 
+                        data-name="Кюлоти" 
+                        data-price="1350" 
+                        data-image="images/bottom7.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Спідниця 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/bottom4.jpg" alt="Міді спідниця">
+            </div>
+            <div class="product-content">
+                <h3>Міді спідниця</h3>
+                <p class="product-description">Елегантна спідниця до коліна</p>
+                <div class="product-price">
+                    <span class="current-price">1 200 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="24" 
+                        data-name="Міді спідниця" 
+                        data-price="1200" 
+                        data-image="images/bottom8.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Контент для верхнього одягу -->
+<div class="category-content" id="outerwear">
+    <div class="category-products">
+        <!-- Пальто 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer1.jpg" alt="Пальто класичне">
+            </div>
+            <div class="product-content">
+                <h3>Класичне пальто</h3>
+                <p class="product-description">Тепле пальто з вовняної тканини</p>
+                <div class="product-price">
+                    <span class="current-price">3 500 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="25" 
+                        data-name="Класичне пальто" 
+                        data-price="3500" 
+                        data-image="images/outer1.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Куртка 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer8.jpg" alt="Демісезонна куртка">
+            </div>
+            <div class="product-content">
+                <h3>Демісезонна куртка</h3>
+                <p class="product-description">Легка куртка для весни та осені</p>
+                <div class="product-price">
+                    <span class="current-price">2 800 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="26" 
+                        data-name="Демісезонна куртка" 
+                        data-price="2800" 
+                        data-image="images/outer2.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Пальто 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer3.jpg" alt="Пальто з мєхом">
+                <div class="product-badge">Новинка</div>
+            </div>
+            <div class="product-content">
+                <h3>Пальто з мєхом</h3>
+                <p class="product-description">Стильне та тепле пальто </p>
+                <div class="product-price">
+                    <span class="current-price">3 800 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="27" 
+                        data-name="Пальто з капюшоном" 
+                        data-price="3800" 
+                        data-image="images/outer3.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Куртка 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer7.jpg" alt="Шкіряна куртка">
+            </div>
+            <div class="product-content">
+                <h3>Шкіряна куртка</h3>
+                <p class="product-description">Класична куртка з натуральної шкіри</p>
+                <div class="product-price">
+                    <span class="current-price">4 500 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="28" 
+                        data-name="Кожняна куртка" 
+                        data-price="4500" 
+                        data-image="images/outer4.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Пальто 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer2.jpg" alt="Піджак оверсайз">
+            </div>
+            <div class="product-content">
+                <h3>Піджак оверсайз</h3>
+                <p class="product-description">Піджак оверсайз у вічній моді</p>
+                <div class="product-price">
+                    <span class="current-price">3 200 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="29" 
+                        data-name="Пальто тренч" 
+                        data-price="3200" 
+                        data-image="images/outer5.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Куртка 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer5.jpg" alt="Бомбер">
+                <div class="product-badge sale">-15%</div>
+            </div>
+            <div class="product-content">
+                <h3>Бомбер</h3>
+                <p class="product-description">Стильна куртка бомбер для міського стилю</p>
+                <div class="product-price">
+                    <span class="current-price">2 100 грн</span>
+                    <span class="old-price">2 470 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="30" 
+                        data-name="Бомбер" 
+                        data-price="2100" 
+                        data-image="images/outer6.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Пальто 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer6.jpg" alt="Жилетка">
+            </div>
+            <div class="product-content">
+                <h3>Класична жилетка</h3>
+                <p class="product-description">Класична жилетка у сірому кольорі</p>
+                <div class="product-price">
+                    <span class="current-price">5 200 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="31" 
+                        data-name="Пальто на пуху" 
+                        data-price="5200" 
+                        data-image="images/outer7.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Куртка 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/outer4.jpg" alt="Джинсова куртка">
+            </div>
+            <div class="product-content">
+                <h3>Джинсова куртка</h3>
+                <p class="product-description">Універсальна джинсова куртка</p>
+                <div class="product-price">
+                    <span class="current-price">1 800 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="32" 
+                        data-name="Джинсова куртка" 
+                        data-price="1800" 
+                        data-image="images/outer8.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Контент для аксесуарів -->
+<div class="category-content" id="accessories">
+    <div class="category-products">
+        <!-- Аксесуар 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc1.jpg" alt="Шкіряна сумка">
+            </div>
+            <div class="product-content">
+                <h3>Шкіряна сумка</h3>
+                <p class="product-description">Елегантна сумка з натуральної шкіри</p>
+                <div class="product-price">
+                    <span class="current-price">2 200 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="33" 
+                        data-name="Шкіряна сумка" 
+                        data-price="2200" 
+                        data-image="images/acc1.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc2.jpg" alt="Шовковий шарф">
+            </div>
+            <div class="product-content">
+                <h3>Шовковий шарф</h3>
+                <p class="product-description">Елегантний шарф з натурального шовку</p>
+                <div class="product-price">
+                    <span class="current-price">850 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="34" 
+                        data-name="Шовковий шарф" 
+                        data-price="850" 
+                        data-image="images/acc2.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc3.jpg" alt="Шкіряний ремінь">
+                <div class="product-badge">Новинка</div>
+            </div>
+            <div class="product-content">
+                <h3>Шкіряний ремінь</h3>
+                <p class="product-description">Шкіряний базовий ремінь, який доповнить весь твій образ </p>
+                <div class="product-price">
+                    <span class="current-price">1 500 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="35" 
+                        data-name="Клатч вечірній" 
+                        data-price="1500" 
+                        data-image="images/acc3.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc4.jpg" alt="Сонцезахисні окуляри">
+            </div>
+            <div class="product-content">
+                <h3>Сонцезахисні окуляри</h3>
+                <p class="product-description">Сонцезахисні окуляри, які роблять твій образ завершеним</p>
+                <div class="product-price">
+                    <span class="current-price">650 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="36" 
+                        data-name="Шкіряний ремінь" 
+                        data-price="650" 
+                        data-image="images/acc4.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 5 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc5.jpg" alt="Набір біжутерії">
+            </div>
+            <div class="product-content">
+                <h3>Набір біжутерії</h3>
+                <p class="product-description">Набір біжутерії, що пасує під будь-який образ</p>
+                <div class="product-price">
+                    <span class="current-price">2 800 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="37" 
+                        data-name="Рюкзак шкіряний" 
+                        data-price="2800" 
+                        data-image="images/acc5.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 6 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc6.jpg" alt="Солом'яний капелюх">
+                <div class="product-badge sale">-20%</div>
+            </div>
+            <div class="product-content">
+                <h3>Солом'яний капелюх</h3>
+                <p class="product-description">Солом'яний капелюх для жаркого літа</p>
+                <div class="product-price">
+                    <span class="current-price">1 200 грн</span>
+                    <span class="old-price">1 500 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="38" 
+                        data-name="Кашеміровий шарф" 
+                        data-price="1200" 
+                        data-image="images/acc6.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 7 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc7.jpg" alt="Шкіряний рюкзак">
+            </div>
+            <div class="product-content">
+                <h3>Тот баг</h3>
+                <p class="product-description">Шкіряний рюкзак для повсякденного використання</p>
+                <div class="product-price">
+                    <span class="current-price">1 900 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="39" 
+                        data-name="Тот баг" 
+                        data-price="1900" 
+                        data-image="images/acc7.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+
+        <!-- Аксесуар 8 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/acc8.jpg" alt="Парасолька">
+            </div>
+            <div class="product-content">
+                <h3>Парасолька </h3>
+                <p class="product-description">Парасолька в ніжно-голубому кольорі</p>
+                <div class="product-price">
+                    <span class="current-price">250 грн</span>
+                </div>
+                <button class="add-to-cart-btn" 
+                        data-id="40" 
+                        data-name="Ремінь з пряжкою" 
+                        data-price="750" 
+                        data-image="images/acc8.jpg">
+                    <i class="fas fa-shopping-bag"></i>
+                    Додати в кошик
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+        
+                
+
+   <!-- Секція розпродажу -->
+<section class="sale-section">
+    <div class="container">
+        <div class="sale-header">
+            <h2>Розпродаж</h2>
+            <p>Спеціальні пропозиції з вигідними знижками</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Товар 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular1.jpg" alt="Елегантна сукня міді">
+                    <div class="product-badge sale">-50%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Елегантна сукня міді</h3>
+                    <p class="product-description">Чорна сукня з вовняного крепу з виточками</p>
+                    <div class="product-price">
+                        <span class="current-price">925 грн</span>
+                        <span class="old-price">1 850 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="49" 
+                            data-name="Елегантна сукня міді" 
+                            data-price="925" 
+                            data-image="images/popular1.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Товар 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular2.jpg" alt="Блузка з шифону">
+                    <div class="product-badge sale">-30%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Блузка з шифону</h3>
+                    <p class="product-description">Біла блузка з летючими рукавами</p>
+                    <div class="product-price">
+                        <span class="current-price">840 грн</span>
+                        <span class="old-price">1 200 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="50" 
+                            data-name="Блузка з шифону" 
+                            data-price="840" 
+                            data-image="images/popular2.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Товар 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular3.jpg" alt="Спідниця-олівець">
+                    <div class="product-badge sale">-40%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Спідниця-олівець</h3>
+                    <p class="product-description">Сіра спідниця з костюмної тканини</p>
+                    <div class="product-price">
+                        <span class="current-price">810 грн</span>
+                        <span class="old-price">1 350 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="51" 
+                            data-name="Спідниця-олівець" 
+                            data-price="810" 
+                            data-image="images/popular3.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Товар 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular4.jpg" alt="Жакет двобрештний">
+                    <div class="product-badge sale">-25%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Жакет двобрештний</h3>
+                    <p class="product-description">Бежевий жакет класичного крою</p>
+                    <div class="product-price">
+                        <span class="current-price">1 575 грн</span>
+                        <span class="old-price">2 100 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="52" 
+                            data-name="Жакет двобрештний" 
+                            data-price="1575" 
+                            data-image="images/popular4.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+
+            <!-- Товар 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular5.jpg" alt="Джинси прямого крою">
+                    <div class="product-badge sale">-35%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Джинси прямого крою</h3>
+                    <p class="product-description">Класичні джинси з еластаном</p>
+                    <div class="product-price">
+                        <span class="current-price">1 040 грн</span>
+                        <span class="old-price">1 600 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="53" 
+                            data-name="Джинси прямого крою" 
+                            data-price="1040" 
+                            data-image="images/popular5.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+
+            <!-- Товар 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/popular6.jpg" alt="Пальто демісезонне">
+                    <div class="product-badge sale">-45%</div>
+                </div>
+                <div class="product-content">
+                    <h3>Пальто демісезонне</h3>
+                    <p class="product-description">Тепле пальто для весни та осені</p>
+                    <div class="product-price">
+                        <span class="current-price">1 925 грн</span>
+                        <span class="old-price">3 500 грн</span>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                            data-id="54" 
+                            data-name="Пальто демісезонне" 
+                            data-price="1925" 
+                            data-image="images/popular6.jpg">
+                        <i class="fas fa-shopping-bag"></i>
+                        Додати в кошик
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Кошик -->
+<section class="cart-section">
+    <div class="container">
+        <div class="cart-header">
+            <h2>Ваше замовлення</h2>
+        </div>
+        
+        <div class="cart-container">
+            <div class="cart-content">
+                <div class="cart-items" id="cartItems">
+                    <!-- Товари будуть додаватись через JavaScript -->
+                </div>
+                
+                <div class="cart-summary">
+                    <div class="summary-total">
+                        <span>Разом:</span>
+                        <span class="total-price" id="totalPrice">0 грн</span>
+                    </div>
+                    <button class="checkout-btn" id="checkoutBtn">
+                        Оформити замовлення
+                    </button>
+                    <button class="clear-cart-btn" id="clearCartBtn">
+                        Очистити кошик
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Сповіщення буде створюватись через JavaScript -->
+    <!-- Сповіщення про замовлення -->
+    <div id="orderNotification" class="notification hidden">
+        <i class="fas fa-check-circle"></i>
+        <span id="notificationText">Ваше замовлення отримано! Очікуйте дзвінка підтвердження.</span>
+    </div>
+
+    <!-- Футер з таймером -->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <!-- Таймер акції -->
+            <div class="sale-timer-section">
+                <div class="timer-content">
+                    <h3>Акція закінчується!</h3>
+                    <p>Знижки до 50% на всю колекцію. Встигніть замовити!</p>
+                    
+                    <div class="countdown-timer">
+                        <div class="timer-item">
+                            <div class="timer-number" id="days">17</div>
+                            <div class="timer-label">Днів</div>
+                        </div>
+                        <div class="timer-item">
+                            <div class="timer-number" id="hours">18</div>
+                            <div class="timer-label">Годин</div>
+                        </div>
+                        <div class="timer-item">
+                            <div class="timer-number" id="minutes">00</div>
+                            <div class="timer-label">Хвилин</div>
+                        </div>
+                        <div class="timer-item">
+                            <div class="timer-number" id="seconds">00</div>
+                            <div class="timer-label">Секунд</div>
+                        </div>
+                    </div>
+                    
+                    <button class="cta-button">Перейти до акційних товарів</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LadyClassic</h3>
+                    <p>Елегантний жіночий одяг для сучасної жінки. Ми створюємо стиль, що підкреслює вашу індивідуальність.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/anst.t.s?igsh=YjZoZjUzZmE0OWo4&utm_source=qr" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Навігація</h4>
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="index2.html">Асортимент</a></li>
+                        <li><a href="index3.html">Про нас</a></li>
+                        <li><a href="index4.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> м. Львів, вул. Степана Бандери, 12</p>
+                    <p><i class="fas fa-phone"></i> +38 (067) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> anastasiyamois@icloud.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Час роботи</h4>
+                    <p>Пн-Пт: 10:00 - 20:00</p>
+                    <p>Сб-Нд: 11:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2023 LadyClassic. Всі права захищені.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script1.js"></script>
+</body>
+</html>
